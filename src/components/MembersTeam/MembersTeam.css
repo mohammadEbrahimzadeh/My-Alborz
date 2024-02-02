@@ -1,0 +1,20 @@
+.MembersTeam {
+  text-align: center;
+}
+.MembersTeam h1 {
+  font-size: 1.7rem;
+  font-family: danaFont;
+}
+.MembersTeam .titleCard {
+  font-size: 1.5rem;
+  font-family: vazir;
+}
+.MembersTeam .cardMember {
+  box-shadow: 0 0 20px rgb(74, 72, 72);
+  background-color: rgb(243, 243, 243);
+  border-radius: 15px;
+  height: 15rem;
+}
+.MembersTeam .cardMember img {
+  height: 10rem;
+}

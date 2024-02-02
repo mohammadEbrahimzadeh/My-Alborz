@@ -1,0 +1,51 @@
+.Header {
+  height: 18rem;
+  background-image: url("../../../public/images/bg-header.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 120%;
+
+  background-attachment: fixed;
+  background-origin: content-box;
+}
+.Header .brightness {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background-color: black;
+}
+.Header .contentHeader {
+  position: relative;
+  padding-top: 3rem;
+}
+.Header .titleHeader {
+  font-family: danaFont;
+  font-size: 1.5rem;
+}
+.Header .descriotionHeader {
+  font-family: descriotionHeader;
+  font-size: 1.5rem;
+}
+.Header .btnDownload:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: 0.5s;
+}
+.Header a {
+  color: white;
+  text-decoration: dashed;
+}
+.Header a:hover {
+  color: black !important;
+  transition: 0.5s;
+}
+@media screen and (max-width: 576px) {
+  .Header .contentHeader {
+    padding-top: 2.5rem;
+  }
+
+  .Header .descriotionHeader {
+    font-size: 1.4rem;
+  }
+}

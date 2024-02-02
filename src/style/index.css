@@ -1,0 +1,21 @@
+@import url("../components/Navbar/Navbar.css");
+@import url("../components/Header/Header.css");
+@import url("../components/AboutApp/AboutApp.css");
+@import url("../components/MembersTeam/MembersTeam.css");
+@font-face {
+  font-family: danaFont;
+  src: url("../../public/fonts/dana/webfonts/fonts/woff2/dana-bold.woff2");
+}
+@font-face {
+  font-family: vazirFont;
+  src: url("../../public/fonts/vazir/vazirmatn-v33.003/fonts/ttf/Vazirmatn-Black.ttf");
+}
+@font-face {
+  font-family: vazirFontRegular;
+  src: url("../../public/fonts/vazir/vazirmatn-v33.003/fonts/webfonts/Vazirmatn-Regular.woff2");
+}
+body,
+html {
+  min-width: 350px;
+  /* background-color: aqua; */
+}

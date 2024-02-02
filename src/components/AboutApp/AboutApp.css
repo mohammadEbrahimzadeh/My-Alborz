@@ -1,0 +1,12 @@
+.AboutApp {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.544);
+}
+.AboutApp h3 {
+  font-family: danaFont;
+  font-size: 1.5rem;
+}
+.AboutApp p {
+  font-family: vazirFontRegular;
+  font-size: 1.2rem;
+  font-weight: 100;
+}

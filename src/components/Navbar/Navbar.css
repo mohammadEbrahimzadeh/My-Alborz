@@ -1,0 +1,12 @@
+.Navbar .imgLogo {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+.Navbar .containerImgLogo {
+  height: 1.5rem;
+}
+.Navbar .titleNavbar {
+  font-family: danaFont;
+  font-size: 1rem;
+}
